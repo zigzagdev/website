@@ -12,7 +12,7 @@ En savoir plus sur shortcodes dans la [documentation Hugo](https://gohugo.io/con
 
 <!-- body -->
 
-## Etat de la fonctionnalité
+## État de la fonctionnalité
 
 Dans une page de Markdown (fichier `.md`) de ce site, vous pouvez ajouter un code court pour afficher la version et l'état de la fonction documentée.
 
