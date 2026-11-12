@@ -23,7 +23,7 @@ Un ReplicaSet va atteindre son objectif en créant et supprimant des Pods pour a
 Quand un ReplicaSet a besoin de créer de nouveaux Pods, il utilise alors son Pod template.
 
 Le lien d'un ReplicaSet à ses Pods est fait par le champ [metadata.ownerReferences](/docs/concepts/workloads/controllers/garbage-collection/#owners-and-dependents),
-qui spécifie la ressource de l'objet par lequel il est détenu. Tous les Pods acquis par un ReplicaSet ont leurs propres informations d'identification de leur Replicaset, avec leur propre champ ownerReferences. C'est par ce lien que le ReplicaSet connait l'état des Pods qu'il maintient et agit en fonction de ces derniers.
+qui spécifie la ressource de l'objet par lequel il est détenu. Tous les Pods acquis par un ReplicaSet ont leurs propres informations d'identification de leur ReplicaSet, avec leur propre champ ownerReferences. C'est par ce lien que le ReplicaSet connait l'état des Pods qu'il maintient et agit en fonction de ces derniers.
 
 Un ReplicaSet identifie des nouveaux Pods à acquérir en utilisant son selecteur.
 Si il y a un Pod qui n'a pas de OwnerReference ou que OwnerReference n'est pas un controller et qu'il correspond à un sélecteur de ReplicaSet, il va immédiatement être acquis par ce ReplicaSet.
