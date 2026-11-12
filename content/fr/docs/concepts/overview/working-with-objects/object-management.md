@@ -18,7 +18,7 @@ sur la gestion des objets avec Kubectl.
 Un objet Kubernetes doit être géré en utilisant une seule technique. Mélanger et combiner des techniques pour le même objet entraîne un comportement indéfini.
 {{< /warning >}}
 
-| Technique de gestion             | Opère sur             | Environnement recommandé | Operateurs supportés | Courbe d'apprentissage |
+| Technique de gestion             | Opère sur             | Environnement recommandé | Opérateurs supportés | Courbe d'apprentissage |
 |----------------------------------|----------------------|------------------------|---------------------|-----------------------|
 | Commandes impératives            | Objets en direct      | Projets de développement | 1+                  | La plus basse         |
 | Configuration impérative d'objet | Fichiers individuels  | Projets de production   | 1                   | Modérée               |
