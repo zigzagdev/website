@@ -76,7 +76,7 @@ Faites le changement dans votre dépôt local `kubernetes/kubernetes`, puis soum
 Surveillez votre pull request, et répondez aux commentaires des relecteurs.
 Continuez à surveiller votre pull request jusqu'à ce qu'elle soit mergée dans la branche master du dépot `kubernetes/kubernetes`.
 
-## Selectionnez vos commits dans une branche release
+## Sélectionnez vos commits dans une branche release
 
 Vos commits sont sur la branche master, qui est utilisée pour le développement sur la prochaine sortie de Kubernetes.
 Si vous souhaitez que vos commits apparaissent dans la documentation d'une version Kubernetes déjà publiée, vous devez proposer que vos commits soit sélectionnée dans la branche de publication.
