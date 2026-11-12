@@ -60,7 +60,7 @@ manuellement grâce à `easyrsa`, `openssl` ou `cfssl`.
 1.  Générez ca.key en 2048bit:
 
         openssl genrsa -out ca.key 2048
-1.  A partir de la clé ca.key générez ca.crt (utilisez -days pour définir la durée du certificat):
+1.  À partir de la clé ca.key générez ca.crt (utilisez -days pour définir la durée du certificat):
 
         openssl req -x509 -new -nodes -key ca.key -subj "/CN=${MASTER_IP}" -days 10000 -out ca.crt
 1.  Générez server.key en 2048bit:
