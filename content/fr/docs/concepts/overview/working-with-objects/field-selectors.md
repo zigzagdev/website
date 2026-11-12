@@ -66,7 +66,7 @@ kubectl get pods --field-selector=status.phase!=Running,spec.restartPolicy=Alway
 
 ## Types de ressources multiples
 
-Vous pouvez utiliser des sélecteurs de champs sur plusieurs types de ressources. Cette commande `kubectl` sélectionne tous les Statefulsets et Services qui ne sont pas dans le namespace `default` :
+Vous pouvez utiliser des sélecteurs de champs sur plusieurs types de ressources. Cette commande `kubectl` sélectionne tous les StatefulSets et Services qui ne sont pas dans le namespace `default` :
 
 ```shell
 kubectl get statefulsets,services --all-namespaces --field-selector metadata.namespace!=default
