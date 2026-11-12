@@ -77,7 +77,7 @@ Le master peut également être répliqué pour la disponibilité et la redondan
 Les nœuds d’un cluster sont les machines (serveurs physiques, machines virtuelles, etc.) qui exécutent vos applications et vos workflows.
 Le master node Kubernetes contrôle chaque noeud; vous interagirez rarement directement avec les nœuds.
 
-#### Metadonnées des objets Kubernetes
+#### Métadonnées des objets Kubernetes
 
 * [Annotations](/fr/docs/concepts/overview/working-with-objects/annotations/)
 
