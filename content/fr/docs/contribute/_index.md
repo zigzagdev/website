@@ -156,7 +156,7 @@ Figure 2. Préparation pour votre première contribution.
 - Participez à [SIG Docs](/docs/contribute/participate/), et devenez un
   [membre ou réviseur](/docs/contribute/participate/roles-and-responsibilities/).
                        
-- Demarrez ou aidez avec une [localisation](/docs/contribute/localization/).
+- Démarrez ou aidez avec une [localisation](/docs/contribute/localization/).
 
 ## Engagez-vous dans SIG Docs
 
